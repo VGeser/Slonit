@@ -9,3 +9,9 @@
 ![pipe0](https://github.com/VGeser/Slonit/blob/main/task8/pipe0.png)
 ![pipe1](https://github.com/VGeser/Slonit/blob/main/task8/pipe1.png)
 ![pipe2](https://github.com/VGeser/Slonit/blob/main/task8/pipe2.png)
+
+3)  При помощи именованного пайпа заархивировать всё, что в него отправляем
+
+![arch0](https://github.com/VGeser/Slonit/blob/main/task8/arch0.png)
+![arch1](https://github.com/VGeser/Slonit/blob/main/task8/arch1.png)
+
