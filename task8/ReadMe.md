@@ -36,4 +36,24 @@ LISTEN 0      128          0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=901
   Sep 21 08:11:38 localhost root[36680]: os-prober: debug: running /usr/libexec/os-probes/mounted/83haiku on mounted /dev/vda1
   Sep 21 08:11:38 localhost root[36680]: 83haiku: debug: /dev/vda1 is not a BeFS partition: exiting
 ```
-
+4) Вывести дату в unixtime. На вход команды date через пайп подать свой формат выводимой даты
+```bash
+date -d "2024-11-22 00:00:00 UTC" +%s
+1732233600
+```
+5) При помощи HEREDOC записать в файл многострочное сообщение
+```bash
+cat <<EOF > chat.txt
+> my name is
+> my name is
+> what?
+> The Real Slim Shady
+> EOF
+```
+```bash
+cat chat.txt
+my name is
+my name is
+what?
+The Real Slim Shady
+```
